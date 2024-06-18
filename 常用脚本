@@ -1,4 +1,6 @@
-MySQL备份#!/bin/bash
+MySQL备份
+``
+#!/bin/bash
 
 set -e
 
@@ -116,7 +118,10 @@ case "$1" in
 esac
 
 exit 1
-目录备份#!/bin/bash
+``
+目录备份
+``
+#!/bin/bash
 #
 #
 # 时间
@@ -149,6 +154,7 @@ fi
 
 # 删除3天前的备份
 find $BACKUPDIR -type f -ctime +3 | xargs rm -rf
+``
 PING查询#!/bin/bash
 #用途：根据网络配置对网络地址192.168.0进行修改，检查是否是活动状态
 
